@@ -5,22 +5,25 @@
 snap list
 sudo snap install microk8s --classic
 sudo snap install juju --classic
-sudo usermod -a -G microk8s ubuntu
-sudo chown -f -R ubuntu ~./kube
-reboot now or exit
+sudo usermod -a -G microk8s oneoff
+sudo chown -f -R oneoff ~./kube
+sudo reboot now
 
 alias kubectl='microk8s kubectl'
 microk8s enable dns storage
-kubectl get po -A
 microk8s config > ~/.kube/config
 
 juju add-k8s myk8s
+juju clouds
+
 juju bootstrap myk8s my-controller
+kubectl get po -A
 kubectl get namespace
-juju add-model kuberflow
+
+juju add-model kubeflow
 juju model
 kubectl get namespace
-juju deploy kubeflow-lite
+juju deploy kubeflow-lite --trust
 
 juju status --color  //window 1
 watch -c kubectl get po -n kubeflow //window 2
@@ -38,3 +41,8 @@ microk8s kubectl patch role -n kubeflow istio-ingressgateway-operator -p '{"apiV
 juju config dex-auth public-url=http://<URL>
 juju config oidc-gatekeeper public-url=http://<URL>
 ```
+## Fixes
+```
+rm -rf .local/share/juju
+sudo snap remove microk8s --purge
+sudo snap remove juju --purge
