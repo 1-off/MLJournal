@@ -5,19 +5,14 @@
 sudo snap install microk8s --classic --channel=1.22/stable
 sudo snap install juju --classic
 
-
-sudo usermod -a -G microk8s oneoff
-sudo chown -f -R oneoff ~./kube
-sudo reboot now
-alias kubectl='microk8s kubectl'
-microk8s enable gpu dns storage ingress metallb:10.64.140.43-10.64.140.49 
-microk8s config > ~/.kube/config
-
+sudo microk8s enable gpu dns storage ingress metallb:10.64.140.43-10.64.140.49 
+sudo microk8s config > ~/.kube/config
 
 juju add-k8s myk8s
 juju clouds
 
 juju bootstrap myk8s my-controller
+alias kubectl='sudo microk8s kubectl'
 kubectl get po -A
 kubectl get namespace
 
@@ -26,7 +21,7 @@ juju models
 juju deploy kubeflow-lite --trust
 
 juju status --color  //window 1
-watch -c kubectl get po -n kubeflow //window 2
+watch -c sudo microk8s kubectl get po -n kubeflow //window 2
 
 juju config dex-auth static-username=admin
 juju config dex-auth static-password=thisisapassword
