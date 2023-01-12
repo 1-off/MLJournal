@@ -2,16 +2,17 @@
 
 ## installing Kuberflow-light
 ```bash
-snap list
-sudo snap install microk8s --channel=1.22/stable --classic
+sudo snap install microk8s --classic --channel=1.22/stable
 sudo snap install juju --classic
+
+
 sudo usermod -a -G microk8s oneoff
 sudo chown -f -R oneoff ~./kube
 sudo reboot now
-
 alias kubectl='microk8s kubectl'
-microk8s enable dns storage gpu istio
+microk8s enable gpu dns storage ingress metallb:10.64.140.43-10.64.140.49 
 microk8s config > ~/.kube/config
+
 
 juju add-k8s myk8s
 juju clouds
@@ -22,7 +23,6 @@ kubectl get namespace
 
 juju add-model kubeflow
 juju models
-kubectl get namespace
 juju deploy kubeflow-lite --trust
 
 juju status --color  //window 1
