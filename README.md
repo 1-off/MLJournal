@@ -3,7 +3,7 @@
 ## installing Kuberflow-light
 ```bash
 snap list
-sudo snap install microk8s --classic
+sudo snap install microk8s --channel=1.22/stable --classic
 sudo snap install juju --classic
 sudo usermod -a -G microk8s oneoff
 sudo chown -f -R oneoff ~./kube
@@ -41,8 +41,13 @@ microk8s kubectl patch role -n kubeflow istio-ingressgateway-operator -p '{"apiV
 juju config dex-auth public-url=http://<URL>
 juju config oidc-gatekeeper public-url=http://<URL>
 ```
+## Issues
+- https://github.com/canonical/bundle-kubeflow/issues/509
+
 ## Fixes
 ```
 rm -rf .local/share/juju
 sudo snap remove microk8s --purge
 sudo snap remove juju --purge
+sudo snap remove microk8s --purge; juju unregister -y <controller-name>
+```
