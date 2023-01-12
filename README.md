@@ -10,7 +10,7 @@ sudo chown -f -R oneoff ~./kube
 sudo reboot now
 
 alias kubectl='microk8s kubectl'
-microk8s enable dns storage
+microk8s enable dns storage gpu istio
 microk8s config > ~/.kube/config
 
 juju add-k8s myk8s
@@ -21,7 +21,7 @@ kubectl get po -A
 kubectl get namespace
 
 juju add-model kubeflow
-juju model
+juju models
 kubectl get namespace
 juju deploy kubeflow-lite --trust
 
