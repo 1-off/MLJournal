@@ -26,12 +26,11 @@ watch -c sudo microk8s kubectl get po -n kubeflow //window 2
 juju config dex-auth static-username=admin
 juju config dex-auth static-password=thisisapassword
 
-kubectl get services -n kubeflow
+#getting the ip
+sudo microk8s kubectl get services -n kubeflow
 
-microk8s kubectl patch role -n kubeflow istio-ingressgateway-operator -p '{"apiVersion":"rbac.authorization.k8s.io/v1","kind":"Role","metadata":{"name":"istio-ingressgateway-operator"},"rules":[{"apiGroups":["*"],"resources":["*"],"verbs":["*"]}]}'
-
-juju config dex-auth public-url=http://<URL>
-juju config oidc-gatekeeper public-url=http://<URL>
+juju config dex-auth public-url=http://<IP>.nip.io
+juju config oidc-gatekeeper public-url=http://<IP>.nip.io
 ```
 ## Issues
 - https://github.com/canonical/bundle-kubeflow/issues/509
@@ -43,3 +42,5 @@ sudo snap remove microk8s --purge
 sudo snap remove juju --purge
 sudo snap remove microk8s --purge; juju unregister -y <controller-name>
 ```
+## What-is
+- [nip.io](https://cluedin-io.github.io/Home/faq/nip/)
