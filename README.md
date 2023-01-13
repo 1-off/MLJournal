@@ -38,6 +38,7 @@ sudo microk8s kubectl get svc -A | grep istio
 ## Issues
 - https://github.com/canonical/bundle-kubeflow/issues/509
 - https://bleepcoder.com/kubeflow/748548648/cannot-access-the-kubeflow-dashboard
+- https://github.com/kubeflow/kubeflow/issues/5429
 
 ## Fixes
 ```
@@ -48,3 +49,9 @@ sudo snap remove microk8s --purge; juju unregister -y <controller-name>
 ```
 ## What-is
 - [nip.io](https://cluedin-io.github.io/Home/faq/nip/)
+
+## References
+- https://canonical.com/blog/deploying-kubeflow-everywhere
+- https://charmed-kubeflow.io/docs/install
+- https://charmed-kubeflow.io/docs/dashboard
+- https://www.kubeflow.org/docs/components/central-dash/overview/
