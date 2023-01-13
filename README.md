@@ -27,7 +27,7 @@ juju config dex-auth static-username=admin
 juju config dex-auth static-password=thisisapassword
 
 #getting the ip
-sudo microk8s kubectl get services -n kubeflow
+sudo microk8s kubectl get services -n kubeflow | grep istio-ingressgataway-workload
 
 juju config dex-auth public-url=http://<IP>.nip.io
 juju config oidc-gatekeeper public-url=http://<IP>.nip.io
