@@ -13,8 +13,8 @@ juju clouds
 
 juju bootstrap myk8s my-controller
 alias kubectl='sudo microk8s kubectl'
-kubectl get po -A
-kubectl get namespace
+sudo microk8s kubectl get po -A
+sudo microk8s kubectl get namespace
 
 juju add-model kubeflow
 juju models
@@ -25,9 +25,6 @@ watch -c sudo microk8s kubectl get po -n kubeflow //window 2
 
 juju config dex-auth static-username=admin
 juju config dex-auth static-password=thisisapassword
-
-microk8s enable metallb
-microk8s enable metallb:10.64.140.43-10.64.140.49
 
 kubectl get services -n kubeflow
 
