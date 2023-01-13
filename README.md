@@ -34,6 +34,7 @@ juju config oidc-gatekeeper public-url=http://<IP>.nip.io
 ```
 ## Issues
 - https://github.com/canonical/bundle-kubeflow/issues/509
+- https://bleepcoder.com/kubeflow/748548648/cannot-access-the-kubeflow-dashboard
 
 ## Fixes
 ```
