@@ -5,32 +5,35 @@
 sudo snap install microk8s --classic --channel=1.22/stable
 sudo snap install juju --classic
 
-sudo microk8s enable gpu dns storage ingress metallb:10.64.140.43-10.64.140.49 
+sudo microk8s enable gpu dns storage ingress istio metallb:10.64.140.43-10.64.140.49 
 sudo microk8s config > ~/.kube/config
 
 juju add-k8s myk8s
-juju clouds
-
 juju bootstrap myk8s my-controller
-alias kubectl='sudo microk8s kubectl'
-sudo microk8s kubectl get po -A
-sudo microk8s kubectl get namespace
-
 juju add-model kubeflow
-juju models
 juju deploy kubeflow-lite --trust
 
+---- wait ---- check status of juju and microk8s (5-10 min)
 juju status --color  //window 1
 watch -c sudo microk8s kubectl get po -n kubeflow //window 2
+---------------
+
+sudo microk8s kubectl get svc -A | grep istio
+juju config dex-auth public-url=http://<IP>.nip.io
+juju config oidc-gatekeeper public-url=http://<IP>.nip.io
 
 juju config dex-auth static-username=admin
 juju config dex-auth static-password=thisisapassword
 
-#getting the ip
-sudo microk8s kubectl get services -n kubeflow | grep istio-ingressgataway-workload
+#check Juju
+juju models
+juju clouds
 
-juju config dex-auth public-url=http://<IP>.nip.io
-juju config oidc-gatekeeper public-url=http://<IP>.nip.io
+#check microk8s
+sudo microk8s kubectl get po -A
+sudo microk8s kubectl get namespace
+sudo microk8s kubectl get services -n kubeflow | grep istio-ingressgataway-workload
+sudo microk8s kubectl get svc -A | grep istio
 ```
 ## Issues
 - https://github.com/canonical/bundle-kubeflow/issues/509
