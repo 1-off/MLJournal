@@ -14,3 +14,4 @@
 - https://medium.com/swlh/automatic-image-captioning-using-deep-learning-5e899c127387
 - https://towardsai.net/p/deep-learning/create-your-first-text-generator-with-lstm-in-few-minutes
 - https://www.analyticsvidhya.com/blog/2018/03/text-generation-using-python-nlp/
+- https://thecleverprogrammer.com/2020/12/20/text-generation-with-python/
