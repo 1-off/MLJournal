@@ -20,6 +20,10 @@
   - https://developer.nvidia.com/megatron-turing-natural-language-generation
 - https://paperswithcode.com/dataset/cc-stories
 - https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/
+
+## videos
+- https://www.microsoft.com/en-us/research/video/research-talk-prompt-tuning-what-works-and-whats-next/
+- 
 ## References
 - https://www.overleaf.com/read/cbnkwrqqptbk
 - https://arxiv.org/abs/2104.08691
