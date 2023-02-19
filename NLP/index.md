@@ -1,6 +1,7 @@
 ## Keywords
 - fine-tuning
 - prompt tuning, prompt engineering, Prompt ensembling
+- [continuous, soft, and virtual], [discrete, hard, or real ]
 
 
 ## Alternatives to ChatGPT3
