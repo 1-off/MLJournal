@@ -6,13 +6,11 @@
 ## Alternatives to ChatGPT3
 - OPT by Meta
 ## courses
-- https://www.coursera.org/projects/transfer-learning-nlp-tensorflow-hub
-- https://www.coursera.org/learn/natural-language-processing-tensorflow#syllabus
-- https://www.coursera.org/learn/deep-learning-reinforcement-learning#syllabus week 5 transfer learning
-- https://www.coursera.org/projects/fine-tune-bert-tensorflow
-- https://www.coursera.org/projects/transfer-learning-nlp-tensorflow-hub
 - https://www.coursera.org/specializations/natural-language-processing?action=enroll#courses 
-
+  - https://www.coursera.org/learn/natural-language-processing-tensorflow#syllabus
+  - https://www.coursera.org/learn/deep-learning-reinforcement-learning#syllabus week 5 transfer learning
+    - https://www.coursera.org/projects/fine-tune-bert-tensorflow
+    - https://www.coursera.org/projects/transfer-learning-nlp-tensorflow-hub
 ## Treasoure chest 
 - https://github.com/bigscience-workshop/promptsource
 - https://bigscience.huggingface.co/
