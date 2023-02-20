@@ -26,6 +26,7 @@
 
 ## videos
 - https://www.microsoft.com/en-us/research/video/research-talk-prompt-tuning-what-works-and-whats-next/
+- [ EMNLP 2022 Tutorial - "Modular and Parameter-Efficient Fine-Tuning for NLP Models" ](https://www.youtube.com/watch?v=KoOlcX3XLd4)
 - 
 ## Papers
 - https://www.overleaf.com/read/cbnkwrqqptbk
