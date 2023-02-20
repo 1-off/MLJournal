@@ -3,7 +3,7 @@
 - prompt tuning, prompt engineering, Prompt ensembling
 - [continuous, soft, and virtual], [discrete, hard, or real ]
 
-### > 02-18-2023
+### Udated at 02-18-2023
 ## Alternatives to ChatGPT3
 - OPT by Meta
 ## courses
