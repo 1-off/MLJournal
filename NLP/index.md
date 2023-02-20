@@ -1,9 +1,10 @@
+### Udated at 02-18-2023
+
 ## Keywords
 - fine-tuning
 - prompt tuning, prompt engineering, Prompt ensembling
 - [continuous, soft, and virtual], [discrete, hard, or real ]
 
-### Udated at 02-18-2023
 ## Alternatives to ChatGPT3
 - OPT by Meta
 ## courses
