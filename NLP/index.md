@@ -12,7 +12,8 @@
   - https://www.coursera.org/learn/deep-learning-reinforcement-learning#syllabus week 5 transfer learning
     - https://www.coursera.org/projects/fine-tune-bert-tensorflow
     - https://www.coursera.org/projects/transfer-learning-nlp-tensorflow-hub
-## Treasoure chest 
+
+## Interesting links 
 - https://github.com/bigscience-workshop/promptsource
 - https://bigscience.huggingface.co/
 - https://carper.ai/
@@ -25,7 +26,7 @@
 ## videos
 - https://www.microsoft.com/en-us/research/video/research-talk-prompt-tuning-what-works-and-whats-next/
 - 
-## References
+## Papers
 - https://www.overleaf.com/read/cbnkwrqqptbk
 - https://arxiv.org/abs/2104.08691
 - https://arxiv.org/pdf/1909.08053.pdf
