@@ -35,9 +35,12 @@
 - [Zero-Shot and Few-Shot Learning](https://www.inovex.de/de/blog/prompt-engineering-guide/)
 - https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/nlp/nemo_megatron/prompt_learning.html
   - https://github.com/NVIDIA/NeMo/blob/stable/tutorials/nlp/Multitask_Prompt_and_PTuning.ipynb
+- [teaching-opt-to-paraphrase-through-soft-prompt-tuning](https://medium.com/ai-singapore/teaching-opt-to-paraphrase-through-soft-prompt-tuning-4c1a1e852cb8)
+- [guiding-frozen-language-models](https://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html)
 
 ## Scripts, notebooks
 - https://github.com/thunlp/OpenPrompt
+- https://console.paperspace.com/github/gradient-ai/PromptBasedNLP/blob/main/notebook.ipynb?machine=Free-GPU&file=notebook.ipynb
 
 ## videos
 - https://www.microsoft.com/en-us/research/video/research-talk-prompt-tuning-what-works-and-whats-next/
