@@ -3,8 +3,10 @@
 
 ## Keywords
 - fine-tuning
-- prompt tuning, prompt engineering, Prompt ensembling
+- prompt tuning, prompt engineering, Prompt ensembling, 
 - [continuous, soft, and virtual], [discrete, hard, or real ]
+- Frozen Language Models
+- Zero-Shot Learning
 
 ## Alternatives to ChatGPT3
 - OPT by Meta
@@ -27,6 +29,17 @@
 - https://www.microsoft.com/en-us/research/search/?q=prompting%20
 - http://pretrain.nlpedia.ai/data/pdf/multi-prompt.pdf
 - [Prompt-based learning with Transformers](https://developers.reinfer.io/blog/2022/05/04/prompting)
+- https://thegradient.pub/prompting/
+- [Prompt Tuning for Large Language Models with Inference](https://www.pragnakalp.com/prompt-tuning-for-large-language-models-with-inference/)
+- https://github.com/thunlp/PromptPapers
+- [small introduction to prompting](https://finisky.github.io/briefintrotoprompt.en/)
+- [Prompt-Tuning-UNC-with-speaker-notes](https://blester125.com/static/presentations/slides/Prompt-Tuning-UNC-with-speaker-notes.pdf)
+- [Zero-Shot and Few-Shot Learning](https://www.inovex.de/de/blog/prompt-engineering-guide/)
+- https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/nlp/nemo_megatron/prompt_learning.html
+  - https://github.com/NVIDIA/NeMo/blob/stable/tutorials/nlp/Multitask_Prompt_and_PTuning.ipynb
+
+## Scripts, notebooks
+- https://github.com/thunlp/OpenPrompt
 
 ## videos
 - https://www.microsoft.com/en-us/research/video/research-talk-prompt-tuning-what-works-and-whats-next/
@@ -40,8 +53,10 @@
 - 
 ## Papers
 - https://www.overleaf.com/read/cbnkwrqqptbk
-- https://arxiv.org/abs/2104.08691
+- [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/pdf/2104.08691.pdf)
 - https://arxiv.org/pdf/1909.08053.pdf
 - https://arxiv.org/pdf/2205.01068.pdf
+- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/pdf/2107.13586v1.pdf)
+- [GPT understand, too](https://arxiv.org/pdf/2103.10385.pdf)
 - https://www.microsoft.com/en-us/research/publication/prompting-gpt-3-to-be-reliable
 -------------------------------------------
