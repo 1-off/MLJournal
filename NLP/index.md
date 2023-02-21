@@ -8,8 +8,6 @@
 - Frozen Language Models
 - Zero-Shot Learning
 
-## Alternatives to ChatGPT3
-- OPT by Meta
 ## courses
 - https://www.coursera.org/specializations/natural-language-processing?action=enroll#courses 
   - https://www.coursera.org/learn/natural-language-processing-tensorflow#syllabus
@@ -17,7 +15,7 @@
     - https://www.coursera.org/projects/fine-tune-bert-tensorflow
     - https://www.coursera.org/projects/transfer-learning-nlp-tensorflow-hub
 
-## Interesting links 
+## Resources
 - https://github.com/bigscience-workshop/promptsource
 - https://bigscience.huggingface.co/
 - https://carper.ai/
@@ -50,7 +48,10 @@
 - [ CMU Advanced NLP 2021 (10): Prompting + Sequence-to-sequence Pre-training ](https://www.youtube.com/watch?v=TE6urdkTR4I)
 - [ Towards Soft-Prompt Tuning with Large Language Models | Vector Applied Intern Talks ](https://www.youtube.com/watch?v=nnylYEh4bpI)
 - [ Fine-Tune AI Text Generation GPT-Neo Model with Custom Dataset & Upload to Hugging Face Hub Tutorial ](https://www.youtube.com/watch?v=uE0_XKh2d6g)
-- 
+
+## Alternatives to ChatGPT3
+- OPT by Meta
+
 ## Papers
 - https://www.overleaf.com/read/cbnkwrqqptbk
 - [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/pdf/2104.08691.pdf)
