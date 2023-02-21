@@ -16,6 +16,7 @@
     - https://www.coursera.org/projects/transfer-learning-nlp-tensorflow-hub
 
 ## Resources
+- https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
 - https://github.com/bigscience-workshop/promptsource
 - https://bigscience.huggingface.co/
 - https://carper.ai/
