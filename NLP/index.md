@@ -39,6 +39,7 @@
 - [teaching-opt-to-paraphrase-through-soft-prompt-tuning](https://medium.com/ai-singapore/teaching-opt-to-paraphrase-through-soft-prompt-tuning-4c1a1e852cb8)
 - [guiding-frozen-language-models](https://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html)
 - https://generative.ink/posts/methods-of-prompt-programming/#constraining-behavior
+- https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/fine-tuning?pivots=programming-language-python
 
 ## Scripts, notebooks
 - https://github.com/thunlp/OpenPrompt
