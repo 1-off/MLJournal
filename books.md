@@ -1,0 +1,5 @@
+- https://machinelearningmastery.com/products/
+- https://greenteapress.com/thinkstats2/thinkstats2.pdf
+- https://d2l.ai/chapter_natural-language-processing-pretraining/index.html
+- https://christophm.github.io/interpretable-ml-book/
+- https://www.mbmlbook.com/index.html  <---- amazing
