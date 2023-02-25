@@ -1,8 +1,13 @@
 # MLJournal
 
 
-
-
+## Training ML Generals
+- https://www.coursera.org/learn/machine-learning-with-python?utm_campaign=IBMBadge&utm_medium=institutions&utm_source=IBM#syllabus
+- https://www.coursera.org/learn/introduction-to-deep-learning-with-keras
+- https://www.coursera.org/learn/introduction-computer-vision-watson-opencv#syllabus
+- https://www.coursera.org/learn/deep-neural-networks-with-pytorch
+- https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow
+- https://www.coursera.org/learn/ai-deep-learning-capstone#syllabus
 
 
 ### Datasets 
