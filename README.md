@@ -13,8 +13,8 @@
 - [DataCamp Projects](https://app.datacamp.com/learn/projects?technologies=Python&hasUnguided=false&hasUnguided=true&sort=relevance)
 
 ## Done courses:
-- https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/week/4
 - https://www.coursera.org/specializations/natural-language-processing?action=enroll#courses
+- https://courses.cognitiveclass.ai/courses/course-v1:BDU+ML0101EN+v4/course/
 
 ### Datasets 
 - https://www.kaggle.com/datasets/adityajn105/flickr8k
