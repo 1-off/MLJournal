@@ -1,0 +1,7 @@
+- https://geo-python-site.readthedocs.io/en/latest/course-info/learning-goals.html
+- https://gisgeography.com/deep-machine-learning-ml-artificial-intelligence-ai-gis/
+- https://www.microsoft.com/en-us/research/project/geospatial-machine-learning/
+- https://www.geo.university/collections/free-materials
+- https://www.geo.university/bundles/geo-premium
+- https://osiris.uu.nl/osiris_student_uuprd/OnderwijsCatalogusSelect.do?selectie=cursus&cursus=INFOMSSML&collegejaar=2020&taal=en
+- https://www.datacamp.com/courses/working-with-geospatial-data-in-python
