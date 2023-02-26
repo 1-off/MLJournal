@@ -10,12 +10,17 @@
 - Theano: Theano is an open-source numerical computation library for Python. It is used to build and optimize mathematical expressions, especially for building deep learning models.
 - Darknet: Darknet is a neural network framework that was developed specifically for YOLO. It is written in C and CUDA and is optimized for speed and memory efficiency. Darknet provides a command-line interface for training and testing YOLO models and includes pre-trained models that can be used out-of-the-box.
 ## Training ML Generals
-- https://www.coursera.org/learn/machine-learning-with-python?utm_campaign=IBMBadge&utm_medium=institutions&utm_source=IBM#syllabus
-- https://www.coursera.org/learn/introduction-to-deep-learning-with-keras
-- https://www.coursera.org/learn/introduction-computer-vision-watson-opencv#syllabus
-- https://www.coursera.org/learn/deep-neural-networks-with-pytorch
-- https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow
-- https://www.coursera.org/learn/ai-deep-learning-capstone#syllabus
+- Coursera:
+  - https://www.coursera.org/learn/machine-learning-with-python?utm_campaign=IBMBadge&utm_medium=institutions&utm_source=IBM#syllabus
+  - https://www.coursera.org/learn/introduction-to-deep-learning-with-keras
+  - https://www.coursera.org/learn/introduction-computer-vision-watson-opencv#syllabus
+  - https://www.coursera.org/learn/deep-neural-networks-with-pytorch
+  - https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow
+  - https://www.coursera.org/learn/ai-deep-learning-capstone#syllabus
+- https://courses.cognitiveclass.ai/courses/course-v1:BDU+ML0101EN+v4/course/
+- [ UC Berkeley Full stack deep learning](https://fullstackdeeplearning.com/spring2021/)
+- [A free course designed for people with some coding experience](https://course.fast.ai/)
+- [DataCamp Projects](https://app.datacamp.com/learn/projects?technologies=Python&hasUnguided=false&hasUnguided=true&sort=relevance)
 
 
 ### Datasets 
