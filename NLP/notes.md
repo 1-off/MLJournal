@@ -18,3 +18,22 @@ These vector representations capture the semantic and syntactic relationships be
 Once the Word2Vec algorithm has generated these vector representations for each word in the corpus, they can be used as input to other neural network models for various natural language processing tasks.
 
 Overall, Word2Vec is a powerful algorithm for generating high-quality word embeddings that capture the meaning and context of words in a text corpus, and is widely used in modern natural language processing applications.
+
+## Vectors
+#### Counterclockwise Rotation
+If you want to rotate a vector rr with coordinates (xx, yy) and angle αα counterclockwise over an angle ββ to get vector r’r’ with coordinates (x’x’, y’y’) then the following holds:
+```
+x=r∗cos(α)x=r∗cos(α)
+
+y=r∗sin(α)y=r∗sin(α)
+
+x’=r’∗cos(α+β)x’=r’∗cos(α+β)
+
+y’=r’∗sin(α+β)y’=r’∗sin(α+β)
+```
+#### Trigonometric addition gives us:
+```
+cos(α+β)=cos(α)cos(β)−sin(α)sin(β)cos(α+β)=cos(α)cos(β)−sin(α)sin(β)
+
+sin(α+β)=cos(α)sin(β)+sin(α)cos(β)sin(α+β)=cos(α)sin(β)+sin(α)cos(β)
+```
