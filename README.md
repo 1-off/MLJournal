@@ -22,6 +22,9 @@
 - [A free course designed for people with some coding experience](https://course.fast.ai/)
 - [DataCamp Projects](https://app.datacamp.com/learn/projects?technologies=Python&hasUnguided=false&hasUnguided=true&sort=relevance)
 
+## Done courses:
+- https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/week/4
+
 
 ### Datasets 
 - https://www.kaggle.com/datasets/adityajn105/flickr8k
