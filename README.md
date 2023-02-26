@@ -1,14 +1,4 @@
 # MLJournal
-
-## Frameworks:
-- TensorFlow: TensorFlow is an open-source ML framework developed by Google. It is widely used for building deep learning models and is designed to be flexible and scalable.
--  PyTorch: PyTorch is an open-source ML framework developed by Facebook. It is known for its ease of use and flexibility, and is especially popular for building deep learning models.
--  Keras: Keras is a high-level ML framework that is designed to be easy to use and fast to prototype. It is built on top of TensorFlow and is especially popular for building neural networks.
-- Scikit-learn: Scikit-learn is a popular ML library for building traditional machine learning models, such as linear regression, logistic regression, and decision trees.
-- Caffe: Caffe is a deep learning framework developed by the Berkeley Vision and Learning Center. It is optimized for speed and is often used for computer vision tasks.
-- MXNet: MXNet is an open-source deep learning framework developed by Amazon. It is designed to be fast, scalable, and flexible, and is especially popular for building deep learning models for computer vision and natural language processing tasks.
-- Theano: Theano is an open-source numerical computation library for Python. It is used to build and optimize mathematical expressions, especially for building deep learning models.
-- Darknet: Darknet is a neural network framework that was developed specifically for YOLO. It is written in C and CUDA and is optimized for speed and memory efficiency. Darknet provides a command-line interface for training and testing YOLO models and includes pre-trained models that can be used out-of-the-box.
 ## Training ML Generals
 - Coursera:
   - https://www.coursera.org/learn/machine-learning-with-python?utm_campaign=IBMBadge&utm_medium=institutions&utm_source=IBM#syllabus
@@ -24,7 +14,7 @@
 
 ## Done courses:
 - https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/week/4
-
+- https://www.coursera.org/specializations/natural-language-processing?action=enroll#courses
 
 ### Datasets 
 - https://www.kaggle.com/datasets/adityajn105/flickr8k
@@ -37,4 +27,14 @@
 - https://www.analyticsvidhya.com/blog/2018/03/text-generation-using-python-nlp/
 - https://thecleverprogrammer.com/2020/12/20/text-generation-with-python/
 - https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/
+
+## Frameworks:
+- TensorFlow: TensorFlow is an open-source ML framework developed by Google. It is widely used for building deep learning models and is designed to be flexible and scalable.
+-  PyTorch: PyTorch is an open-source ML framework developed by Facebook. It is known for its ease of use and flexibility, and is especially popular for building deep learning models.
+-  Keras: Keras is a high-level ML framework that is designed to be easy to use and fast to prototype. It is built on top of TensorFlow and is especially popular for building neural networks.
+- Scikit-learn: Scikit-learn is a popular ML library for building traditional machine learning models, such as linear regression, logistic regression, and decision trees.
+- Caffe: Caffe is a deep learning framework developed by the Berkeley Vision and Learning Center. It is optimized for speed and is often used for computer vision tasks.
+- MXNet: MXNet is an open-source deep learning framework developed by Amazon. It is designed to be fast, scalable, and flexible, and is especially popular for building deep learning models for computer vision and natural language processing tasks.
+- Theano: Theano is an open-source numerical computation library for Python. It is used to build and optimize mathematical expressions, especially for building deep learning models.
+- Darknet: Darknet is a neural network framework that was developed specifically for YOLO. It is written in C and CUDA and is optimized for speed and memory efficiency. Darknet provides a command-line interface for training and testing YOLO models and includes pre-trained models that can be used out-of-the-box.
 
